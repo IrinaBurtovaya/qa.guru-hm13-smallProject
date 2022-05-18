@@ -1,3 +1,4 @@
+
 ##Проект по автоматизации тестирования для сайта QA.GURU
 
 ### <a target="_blank" href="https://qa.guru/">Перейти на сайт школы инженеров по автоматизации тестирования</a>
@@ -20,7 +21,7 @@
 <img width="6%" title="Java" src="images/logo/Java.svg">
 <img width="6%" title="Selenide" src="images/logo/Selenide.svg">
 <img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
-<img width="6%" title="Allure Report" src="test/resources/images/logo/Allure_Report.svg">
+<img width="6%" title="Allure Report" src="test/resources/images.logo/Allure_Report.svg">
 <img width="6%" title="Gradle" src="images/logo/Gradle.svg">
 <img width="6%" title="JUnit5" src="images/logo/JUnit5.svg">
 <img width="6%" title="GitHub" src="images/logo/GitHub.svg">
