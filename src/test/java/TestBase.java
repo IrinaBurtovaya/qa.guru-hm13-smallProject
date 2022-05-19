@@ -22,7 +22,13 @@ public class TestBase {
     static void setUp() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
-        Configuration.browserSize = "1920x1080";
+        String propertyBrowser = System.getProperty("propertyBrowser", "chrome");
+        String propertyVersion = System.getProperty("propertyVersion", "100");
+        String propertyBrowserSize = System.getProperty("propertyBrowserSize", "1920x1080");
+
+        Configuration.browser = propertyBrowser;
+        Configuration.browserVersion = propertyVersion;
+        Configuration.browserSize = propertyBrowserSize;
         Configuration.remote = "https://" + config.login() + ":" + config.password() + "@" + selenoid;
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
