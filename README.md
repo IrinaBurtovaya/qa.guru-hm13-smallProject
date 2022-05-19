@@ -58,5 +58,5 @@
 
 ### 💎[Видео примеры прохождения тест-кейсов](#видео-примеры-прохождения-тестов)
 <p align="center">
-<img title="video1" src="src/test/resources/video1.mp4" width="750" height="440"  alt="video">
+<img title="video1" src="src/test/resources/video1.gif" width="750" height="440"  alt="video">
 </p>
