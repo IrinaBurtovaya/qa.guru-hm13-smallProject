@@ -36,7 +36,7 @@ public class QaGuruPageTests extends TestBase {
 
     @Test
     @DisplayName("Тест на проверку перехода в ВК")
-    void VkTest() {
+    void vkTest() {
         step("Кликаем по иконке социальной сети ВК", () -> {
             qaGuruPage.vkIcon.scrollIntoView(true).click();
         });
